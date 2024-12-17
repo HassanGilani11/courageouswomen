@@ -1,0 +1,124 @@
+.saasp-pricelist-main-container {
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+.saasp-pricelist-main-container {
+    padding: 30px !important;
+}
+
+.saasp-price-title-icon-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    vertical-align: middle;
+}
+
+.saasp-pricelist-icon i {
+    font-size: 27px;
+}
+
+.saasp-pricelist-icon svg, saasp-pricelist-icon {
+    width: 27px;
+}
+
+.saasp-pricelist-main-container .saasp-pricelist-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.saasp-pricelist-main-container .saasp-pricelist-price {
+    font-size: 27px;
+    line-height: normal;
+}
+
+.saasp-pricelist-price {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+p.saasp-pricelist-description {
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.saasp-pricelist-divider-parent {
+    padding: 2px;
+}
+
+body .saasp-pricelist-main hr.saasp-list-cal-separator {
+    color: #474F53;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    opacity: inherit !important;
+    background-color: transparent !important;
+}
+
+.saasp-pricelist-main-container  .saasp-pricelist-slashed-title {
+    font-size: 27px;
+    color: gray;
+    text-decoration: line-through;
+    margin-bottom: 0;
+}
+
+.saasp-pricelist-slashed-num, .saasp-pricelist-slashed-period {
+    font-size: 27px;
+    color: gray;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.saasp-pricelist-slashed-currency {
+    color: gray;
+}
+
+.saasp-pricelist-main-container .saasp-pricelist-cal-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.saasp-pricelist-main-container .saasp-pricelist-cal-main {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.saasp-pricelist-cta {
+    margin-top: 30px;
+}
+
+.saasp-pricelist-icon-alignment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.saasp-pricelist-content-alignment {
+    align-items: center;
+}
+
+.saaspricing-pricelist-icon-spacing svg {
+    width: 14px;
+    fill: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+   .saasp-pricelist-title{
+    font-size: 18px;
+   }
+   .saasp-pricelist-description{
+    font-size: 14px; 
+   }
+   .saasp-pricelist-right{
+    flex-wrap: wrap;
+   }
+}

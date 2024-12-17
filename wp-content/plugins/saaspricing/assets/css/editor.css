@@ -1,0 +1,27 @@
+.elementor-control.elementor-control-type-heading .elementor-control-title {
+    font-weight: 600;
+    margin: 0;
+    font-size: 14px;
+}
+
+.elementor-control-type-heading .elementor-control-title {
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.elementor-element .saasp-icon:after {
+	content: 'sp';
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	padding: 3px 4px;
+	border: 1px solid #474242;
+    border-right: none;
+    border-top: none;
+	font-size: 9px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #726f6f;
+	mix-blend-mode: difference;
+}
